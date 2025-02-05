@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+/* :root {
+  --primary-color: #f90a39;
+  --text-color: black;
+  --bg-color: black;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #fff;
+} */
+
+.top-right-calendar {
+  position: absolute;
+  right: 20px;
+  width: 250px; /* Adjust the width */
+  color: black;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  margin-top: -35px;
+  box-shadow: 4px 4px 20px red;
+}
+.calendar {
+  margin-top: 30px;
+  max-width: 250px;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 5px;
+  background-color: black;
+}
+.calendar .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+}
+.calendar .header .month {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+.calendar .header .btns {
+  display: flex;
+  gap: 10px;
+}
+.calendar .header .btns .btn {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #fff;
+  background-color: var(--primary-color);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.calendar .header .btns .btn:hover {
+  background-color: #db0933;
+  transform: scale(1.05);
+}
+.weekdays {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.weekdays .day {
+  width: calc(100% / 7 - 10px);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+.days {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-right: -10px;
+}
+.days .day {
+  width: calc(100% / 7 - 10px);
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color);
+  background-color: #fff;
+  transition: all 0.3s;
+  color: black;
+}
+.days .day:not(.next):not(.prev):hover {
+  color: #fff;
+  background-color: red;
+  transform: scale(1.05);
+}
+.days .day.today {
+  color: #fff;
+  background-color: red;
+}
+.days .day.next,
+.days .day.prev {
+  color: #ccc;
+}
+
+/* Credits */
+.credits a {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: #aaa;
+}
+.credits span {
+  color: red;
+}
