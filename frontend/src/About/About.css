@@ -1,0 +1,92 @@
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-size: 1.2rem;
+  color: #d9d9d9;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: red;
+  margin: 30px 0 15px;
+}
+
+.features-list,
+.why-list {
+  list-style: none;
+  padding: 0;
+}
+
+.features-list li,
+.why-list li {
+  margin: 10px 0;
+  background: #1f1f1f;
+  padding: 15px;
+  border-left: 4px solid #ff4c4c;
+  border-radius: 5px;
+  text-align: left;
+  color: #e0e0e0;
+}
+
+.working-steps {
+  text-align: left;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.working-steps li {
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #1a1a1a;
+  border-radius: 5px;
+}
+
+.working-steps li strong {
+  color: #ff4c4c;
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #aaaaaa;
+}
+
+.about-bullets {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.about-bullets li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #1f1f1f;
+  color: #f0f0f0;
+  border-left: 4px solid #4caf50;
+  border-radius: 5px;
+  line-height: 1.6;
+}
+
+.highlight-red {
+  color: rgb(0, 255, 0); /* Red color for the headings */
+  font-weight: bold;
+}

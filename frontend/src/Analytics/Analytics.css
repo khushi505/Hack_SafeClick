@@ -1,0 +1,39 @@
+.analytics-layout {
+  display: flex;
+  justify-content: space-between; /* Space out the components */
+  align-items: flex-start; /* Align items at the start */
+  gap: 20px; /* Add spacing between the components */
+  padding: 20px;
+}
+
+.left-panel,
+.right-panel {
+  flex: 1; /* Allow both panels to grow/shrink equally */
+  max-width: 400px; /* Limit the maximum width */
+}
+
+.loader-panel {
+  display: flex;
+  justify-content: center; /* Center the loader horizontally */
+  align-items: center; /* Center the loader vertically */
+  flex: 0.2; /* Smaller width for the loader */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+.response-container {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #333;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
