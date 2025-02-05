@@ -8,7 +8,7 @@ const SideNavBar = () => {
   const menuItems = [
     { text: "Dashboard", icon: "icons/grid.svg", path: "/dashboard" },
     { text: "Analytics", icon: "icons/pie-chart.svg", path: "/analytics" },
-    { text: "Settings", icon: "icons/settings.svg", path: "/settings" },
+    { text: "Settings", icon: "icons/search.png", path: "/settings" },
     { text: "Contact", icon: "icons/user.svg", path: "/contact" },
   ];
 

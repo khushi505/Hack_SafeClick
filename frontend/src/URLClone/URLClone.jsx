@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const URLClone = () => {
+const UrlSafetyChecker = () => {
   const [inputUrl, setInputUrl] = useState("");
   const [apiResponse, setApiResponse] = useState(null);
   const apiUrl = "https://clone-6nb2.onrender.com/check-clone"; // Replace with your actual API URL
@@ -61,7 +61,6 @@ const URLClone = () => {
           <p>
             <strong>Matching Accuracy:</strong> {apiResponse.matching_accuracy}
           </p>
-          {/* <p><strong>WHOIS Data:</strong> {apiResponse.whoisData}</p> */}
           <p
             className={`font-bold text-lg ${
               apiResponse.isClone ||
@@ -82,4 +81,4 @@ const URLClone = () => {
   );
 };
 
-export default URLClone;
+export default UrlSafetyChecker;
