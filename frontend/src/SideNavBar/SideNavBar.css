@@ -1,0 +1,116 @@
+.side-nav-container {
+  position: fixed; /* Keep sidebar in place */
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: rgba(147, 25, 25, 0.574);
+  color: var(--light);
+  z-index: 10;
+  transition: width 0.3s ease;
+}
+
+.nav-heading {
+  display: flex;
+  align-content: center;
+  gap: 25px;
+}
+
+.nav-brand {
+  font-size: 15px;
+}
+
+.side-nav-container-NX {
+  width: 85px;
+}
+
+.content {
+  margin-left: 300px; /* Adjust content to account for sidebar width */
+  transition: margin-left 0.3s ease;
+}
+
+.side-nav-container-NX ~ .content {
+  margin-left: 85px; /* Adjust content for collapsed sidebar */
+}
+
+.menu-item {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 18px;
+  margin-right: 35px;
+  text-decoration: none;
+  color: var(--light);
+  text-transform: uppercase;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  font-size: 15px;
+}
+
+.menu-item.active-menu-item,
+.menu-item:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+.menu-item-icon {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.menu-item-NX .menu-item-icon {
+  margin: auto;
+}
+
+.nav-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space between lines */
+  width: 30px; /* Width of the hamburger */
+  height: 20px; /* Height for the three lines */
+  padding: 0;
+  margin-right: 10px; /* Add space from the right edge */
+  transition: transform 0.3s ease; /* Smooth animation */
+  position: relative;
+  top: 23px;
+}
+
+.hamburger span {
+  display: block;
+  width: 100%; /* Full width of the hamburger */
+  height: 3px; /* Thickness of each line */
+  background-color: var(--light); /* Line color */
+  border-radius: 5px; /* Rounded edges for lines */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover animation */
+}
+
+.hamburger:hover span {
+  background-color: var(--primary); /* Change color on hover */
+}
+
+/* Animation when the sidebar is expanded */
+.hamburger-in span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg); /* Top line rotates */
+}
+.hamburger-in span:nth-child(2) {
+  opacity: 0; /* Middle line disappears */
+}
+.hamburger-in span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg); /* Bottom line rotates */
+}
+
+/* Animation when the sidebar is collapsed */
+.hamburger-out span {
+  transform: none; /* Reset transform */
+  opacity: 1; /* Ensure lines are visible */
+}

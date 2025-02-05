@@ -1,0 +1,41 @@
+/* Main container for the 3D Pie Chart */
+.three-d-piechart {
+  align-items: center;
+  height: 300px;
+
+  background: #000000b4; /* Solid black background */
+
+  color: white; /* Default text color */
+  margin-left: 85px; /* Centered horizontally */
+  padding-top: 10px;
+  position: relative;
+  top: 5px;
+  left: 8em;
+  border-radius: 10px;
+}
+
+/* Chart Title */
+.three-d-piechart h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white; /* White color for title */
+  margin-bottom: 20px;
+}
+
+/* Chart container styling */
+
+/* Add a 3D tilt to the chart */
+.tilted-chart canvas {
+  transform: perspective(800px) rotateX(45deg); /* 3D effect */
+  filter: drop-shadow(0px 5px 10px red) drop-shadow(0px 10px 15px red); /* Depth shadow */
+  width: 100%; /* Responsive chart */
+  height: auto;
+}
+
+/* Optional: Add hover effect to container */
+.three-d-piechart {
+  box-shadow: 0px 5px 10px rgba(210, 0, 0, 0.884); /* Subtle green glow on hover */
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
