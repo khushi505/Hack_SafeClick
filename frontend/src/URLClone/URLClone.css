@@ -1,0 +1,68 @@
+.url-clone {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  padding: 20px;
+  background-color: #1a1a1a; /* Background color for the right panel */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for the panel */
+  color: white;
+  width: 100%;
+}
+
+.url-clone h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.url-clone form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between input and button */
+}
+
+.url-clone input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.url-clone button {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Button color */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.url-clone button:hover {
+  background-color: #0056b3; /* Button hover color */
+}
+
+.response-container {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #333;
+  width: 100%;
+  color: white;
+}
+
+.response-container p {
+  margin: 5px 0;
+}
+
+.error-message {
+  color: red;
+  font-size: 1rem;
+  margin-top: 10px;
+  text-align: center;
+}

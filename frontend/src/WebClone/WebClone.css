@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+body {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.analytics-container {
+  margin-left: 20px;
+}
+
+.input-group {
+  margin-top: 30px;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
