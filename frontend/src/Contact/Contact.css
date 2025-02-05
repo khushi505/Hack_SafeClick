@@ -1,0 +1,78 @@
+/* Contact.css */
+
+.contact {
+  padding: 50px 10%;
+  background: black;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: #d10707;
+  margin-bottom: 20px;
+}
+
+form {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  gap: 12px;
+  background-color: rgba(32, 6, 1, 0.834);
+}
+
+.input-box input {
+  width: 48%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid rgba(32, 6, 1, 0.834);
+  border-radius: 5px;
+  outline: none;
+}
+
+textarea {
+  width: 95%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+  margin-top: 10px;
+  height: 150px;
+}
+
+.btn {
+  display: inline-block;
+  background: red;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .input-box {
+    flex-direction: column;
+  }
+
+  .input-box input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
