@@ -1,0 +1,27 @@
+.body {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 300px; /* Adjust width */
+}
+
+/* Calendar - Top Right */
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 300px; /* Adjust width */
+}
+
+/* Counter - Bottom Right */
+.bottom-right {
+  position: absolute;
+  top: 20em;
+  right: 3px;
+  width: 300px; /* Adjust width */
+}

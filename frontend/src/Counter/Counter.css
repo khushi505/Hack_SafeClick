@@ -1,0 +1,95 @@
+/* Main container */
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+.website-scanned-text {
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  right: 5em;
+}
+
+@media (min-width: 768px) {
+  .main {
+    flex-direction: row; /* Change layout to row for larger screens */
+    justify-content: space-evenly; /* Evenly distribute children */
+  }
+}
+
+/* For very small screens (mobile) */
+@media (max-width: 480px) {
+  .main {
+    padding: 10px;
+    flex-direction: column; /* Column layout for smaller screens */
+    align-items: center; /* Center align children */
+  }
+}
+/* Flip card container */
+.flip-card {
+  background: transparent;
+  width: 300px;
+  height: 270px;
+  perspective: 1000px; /* Perspective for 3D effect */
+  position: relative;
+  right: 10em;
+  cursor: pointer;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg); /* Flip the card on hover */
+}
+
+/* Front side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Hide the back side when not visible */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px red;
+}
+
+/* Front side (count display) */
+.flip-card-front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(32, 6, 1, 0.834);
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  backdrop-filter: blur(10px);
+  border: 1px solid red;
+}
+
+/* Back side (graph display) */
+.flip-card-back {
+  background: rgba(13, 10, 10, 0.8);
+  transform: rotateY(180deg); /* Flip the back side */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Graph styling */
+.graph-container {
+  width: 90%;
+  height: auto;
+}
+
+.graph {
+  width: 100%;
+  height: 100px;
+}
