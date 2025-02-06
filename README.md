@@ -20,7 +20,7 @@ cd api
 nodemon server.js
 ```
 
-# Core DetetcFeatures
+# Core Detection Features
 1. Malicious URL Detection (fake, phishing, spam, scam, malicious URLs)
 2. Clone URL Detection (similar type of urls - unrecognised by users)
 3. Clone Website Detection (similar cloned visuals of websites - indistinguishable by users) 
@@ -34,7 +34,7 @@ nodemon server.js
 
 # Malicious URL Detection Model
 
-[![8](https://github.com/Pranav1703/StyleSync/assets/121372231/a5e3d9e7-e970-41b4-bddb-556dcf1bd140)](https://github.com/tejash05/SafeClick)
+https://github.com/tejash05/SafeClick
 
 # Clone URL Detection Model
 ![9](https://github.com/Pranav1703/StyleSync/assets/121372231/86d0c0bf-106c-495d-b801-e522458578c7)
