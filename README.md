@@ -25,21 +25,21 @@ nodemon server.js
 2. Clone URL Detection (similar type of urls - unrecognised by users)
 3. Clone Website Detection (similar cloned visuals of websites - indistinguishable by users) 
 
-# Technical Stack
+## Technical Stack
 ![Screenshot 2025-02-06 100559](https://github.com/user-attachments/assets/4790f7f5-d766-421e-85e3-df9ccc6266ca)
 
 
-# Tools
+## Tools
 ![Screenshot 2025-02-06 102151](https://github.com/user-attachments/assets/0900b2f0-ad2f-4f11-a22c-544cde31fc5c)
 
-# Malicious URL Detection Model
+## Malicious URL Detection Model
 
 https://github.com/tejash05/SafeClick
 
-# Clone URL Detection Model
+## Clone URL Detection Model
 ![9](https://github.com/Pranav1703/StyleSync/assets/121372231/86d0c0bf-106c-495d-b801-e522458578c7)
 
-# Clone Website Detection Model
+## Clone Website Detection Model
 ![10](https://github.com/Pranav1703/StyleSync/assets/121372231/dafd05b3-52b3-44ac-8241-6443bec814de)
 
 # Use Cases
