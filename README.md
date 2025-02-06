@@ -33,6 +33,7 @@ nodemon server.js
 ![Screenshot 2025-02-06 102151](https://github.com/user-attachments/assets/0900b2f0-ad2f-4f11-a22c-544cde31fc5c)
 
 # Malicious URL Detection Model
+
 [![8](https://github.com/Pranav1703/StyleSync/assets/121372231/a5e3d9e7-e970-41b4-bddb-556dcf1bd140)](https://github.com/tejash05/SafeClick)
 
 # Clone URL Detection Model
