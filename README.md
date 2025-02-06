@@ -1,5 +1,7 @@
 # Hack_SafeClick
 
+Hack SafeClick is a **cutting-edge Chrome extension, integrated with dashboard** designed to protect users from phishing, scam, and malicious websites in real-time. Leveraging **MERN stack** and an advanced **XGBoost model**, the extension analyzes website URLs based on multiple factors like **past URL behavior, domain checks, and clone detection** to provide instant safety alerts. The extension also includes a **website clone detection system**, utilizing **HTML structure analysis, visual similarity (SSIM), and WHOIS verification** to identify fraudulent sites. With an intuitive interface, automated detection, and robust backend powered by **Express API**, Hack SafeClick ensures a **seamless and secure browsing experience**, keeping users protected from cyber threats effortlessly.
+
 ## To start extension:
 1. Open Developer Tools
 2. Unpack Extension by dist folder
@@ -40,4 +42,4 @@ https://github.com/tejash05/SafeClick
 https://github.com/khushi505/Clone_Web_Model
 
 ## Clone Website Detection Model
-
+https://clone-6nb2.onrender.com/check-clone
