@@ -37,7 +37,7 @@ nodemon server.js
 https://github.com/tejash05/SafeClick
 
 ## Clone URL Detection Model
-![9](https://github.com/Pranav1703/StyleSync/assets/121372231/86d0c0bf-106c-495d-b801-e522458578c7)
+https://github.com/khushi505/Clone_Web_Model
 
 ## Clone Website Detection Model
 ![10](https://github.com/Pranav1703/StyleSync/assets/121372231/dafd05b3-52b3-44ac-8241-6443bec814de)
