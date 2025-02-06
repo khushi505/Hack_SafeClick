@@ -20,24 +20,25 @@ cd api
 nodemon server.js
 ```
 
-# What makes us different
-1. One of its kind: We use advanced diffusion models for hyper-realistic virtual try-on experiences.
-2. Unmatched realism: The fine-tuned diffusion model delivers lifelike images, unlike typical AR/VR methods. [model release date: 4 March 2024]
-3. Seamless process: Users upload a photo and garment images for instant visualization with realism.
-4. Exceptional Feature: We let users visualize their imagination of clothing with one click in the same place.
-5. The Next Application in the Fashion Industry: We believe that the diffusion models are very soon going to overtake the AR/VR techniques for virtual try-ons in the e-commerce stores.
+# Core DetetcFeatures
+1. Malicious URL Detection (fake, phishing, spam, scam, malicious URLs)
+2. Clone URL Detection (similar type of urls - unrecognised by users)
+3. Clone Website Detection (similar cloned visuals of websites - indistinguishable by users) 
 
- # Technical Stack
-![5](https://github.com/Pranav1703/StyleSync/assets/121372231/cd98f452-b5dd-44ff-ad57-640cb2ea6230)
+# Technical Stack
+![Screenshot 2025-02-06 100559](https://github.com/user-attachments/assets/4790f7f5-d766-421e-85e3-df9ccc6266ca)
 
-# AR - VR
-![imgonline-com-ua-twotoone-rskzH8wrHwGkSM](https://github.com/Pranav1703/StyleSync/assets/121372231/b572bc35-f8e3-488c-a448-8d1b1478457c)
 
-# Diffusion Modal
-![8](https://github.com/Pranav1703/StyleSync/assets/121372231/a5e3d9e7-e970-41b4-bddb-556dcf1bd140)
+# Tools
+![Screenshot 2025-02-06 102151](https://github.com/user-attachments/assets/0900b2f0-ad2f-4f11-a22c-544cde31fc5c)
 
+# Malicious URL Detection Model
+[![8](https://github.com/Pranav1703/StyleSync/assets/121372231/a5e3d9e7-e970-41b4-bddb-556dcf1bd140)](https://github.com/tejash05/SafeClick)
+
+# Clone URL Detection Model
 ![9](https://github.com/Pranav1703/StyleSync/assets/121372231/86d0c0bf-106c-495d-b801-e522458578c7)
 
+# Clone Website Detection Model
 ![10](https://github.com/Pranav1703/StyleSync/assets/121372231/dafd05b3-52b3-44ac-8241-6443bec814de)
 
 # Use Cases
