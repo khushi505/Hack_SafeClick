@@ -40,20 +40,4 @@ https://github.com/tejash05/SafeClick
 https://github.com/khushi505/Clone_Web_Model
 
 ## Clone Website Detection Model
-![10](https://github.com/Pranav1703/StyleSync/assets/121372231/dafd05b3-52b3-44ac-8241-6443bec814de)
 
-# Use Cases
-
-  1. E-commerce: Enhance online shopping by letting customers virtually try on clothes before purchasing.
-
-  2. Fashion Design: Visualize designs on virtual models, aiding in the design process and client presentations.
-
-  3. Custom Tailoring: Offer virtual fittings to clients, enabling them to see customized garments before production.
-
-  4. Social Media: Create engaging content by showcasing different outfits on virtual models, increasing audience interaction. [for companies]
-
-# Aims
-
-1. Integration and Deployment on Cloud Platforms for public use-case.
-
-2. Identification of Edge cases, hyperparameters as per use cases and improvements in the product architecture.
